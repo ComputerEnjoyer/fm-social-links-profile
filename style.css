@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  width: 5rem;
+  border-radius: 100%;
+}
+
+a {
+  padding: 0.875rem;
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  background-color: #333333;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #333333;
+  background-color: #c4f82a;
+}
+
+body {
+  background-color: #141414;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  background-color: #1f1f1f;
+  text-align: center;
+  width: 24rem;
+}
+
+.profile header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profile .header-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.profile h2 {
+  font-weight: 500;
+}
+
+.profile .location {
+  color: #c4f82a;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.profile .links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.profile q {
+  font-size: 0.875rem;
+  color: #e0e0e0;
+}
+
+.profile .links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
