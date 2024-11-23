@@ -8,6 +8,11 @@ img {
   border-radius: 100%;
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+}
+
 a {
   padding: 0.875rem;
   text-decoration: none;
